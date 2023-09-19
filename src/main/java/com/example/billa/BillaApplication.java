@@ -1,17 +1,17 @@
-package com.example.demo;
+package com.example.billa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class BillaApplication {
 	@RequestMapping("/")
         public String home() {
-          return "Abraham Augustine ! Dockerizing Spring Boot Application";
+          return "Abraham AUgustine! Dockerizing Spring Boot Application";
         }
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(BillaApplication.class, args);
 	}
 
 }
